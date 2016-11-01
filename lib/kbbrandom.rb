@@ -1,7 +1,7 @@
 require "kbbrandom/version"
 
-module Kbbrandom
-  def random_string(length, include_uppercase = true, include_lowercase = true, include_numbers = false)
+class Kbbrandom
+  def self.random_string(length, include_uppercase = true, include_lowercase = true, include_numbers = false)
     o = []
     o.push ('a'..'z') if include_uppercase
     o.push ('A'..'Z') if include_lowercase
