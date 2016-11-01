@@ -38,13 +38,13 @@ Then use the following code in your html.erb:
 
 For the real deal... checkout the [Ruby Gems Guides](http://guides.rubygems.org/make-your-own-gem/)
 
-#### Setup a Ruby Gems account
+### Setup a Ruby Gems account
 
 This is not required, but it is fast and easy. All you need is your email address, handle (nickname), and password. Once you have an account, you can push your gems to RubyGems.org where they will be available to anyone to quick installation. 
 
 - Head'on over to [https://rubygems.org](https://rubygems.org) and click the "SIGN UP" button.
 
-#### Create Gem Files Via Bundler
+### Create Gem Files Via Bundler
 
 I used Bundler to generate the boilerplate gem files. If you have Bundler installed already, skip this step. If not, run the code below in your terminal to install Bundler:
 
@@ -56,7 +56,7 @@ Once you're set on a name, run the code below generate the boilerplate gem files
 
     $ bundle gem [gem name]
 
-#### Add Your Information And Code!
+### Add Your Information And Code!
 
 After the step above, you will now have a new directory with your gem name and the following files inside: Gemfile, LICENSE, README.md, Rakefile, lib, [gem name].gemspec.
 
@@ -66,7 +66,7 @@ Change directories into the new gem folder, and open [gem name].gemspec in a tex
 
 Once your masterpiece has been written, save it. Now let's move on....
 
-#### Build It
+### Build It
 
 [insert Salt N Pepa gif]
 
@@ -76,7 +76,7 @@ The next step is to "build" the gem. Make sure you're still inside your new gem 
 
 This will create a new file in your gem directory that looks someting like: [gem name]-0.1.0.gem. It should look the same unless you changed the version. This is the file you will push to RubyGems.org.
 
-#### Push It
+### Push It
 
 [insert Salt N Pepa gif]
 
