@@ -66,7 +66,7 @@ Change directories into the new gem folder, and open [gem name].gemspec in a tex
 
 Once your masterpiece has been written, save it. Now let's move on....
 
-#### Push It
+#### Build It
 
 [insert Salt N Pepa gif]
 
@@ -76,11 +76,15 @@ The next step is to "build" the gem. Make sure you're still inside your new gem 
 
 This will create a new file in your gem directory that looks someting like: [gem name]-0.1.0.gem. It should look the same unless you changed the version. This is the file you will push to RubyGems.org.
 
+#### Push It
+
+[insert Salt N Pepa gif]
+
 To push the new gem to your RubyGems account, run the following in your terminal:
 
     $ gem push [gem name].-0.1.0.gem
 
-On your first push, you will be prompted for the email address and password for your Ruby Gems account. Once authenticated, if all goes well, you will receive the following message: "Successfully registered gem : [gem name] (version)"
+On your first push, you will be prompted for the email address and password for your Ruby Gems account. Once authenticated, if all goes well, you will receive the following message: "Successfully registered gem : [gem name] version"
 
 That should do it. If not, [Ruby Gems Guides] if you have any questions or concerns.
 
