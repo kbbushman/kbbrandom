@@ -22,12 +22,20 @@ Or install it yourself as:
 
 Add this line to your view controller:
 
-    $ require 'kbbrandom'
+```ruby
+require 'kbbrandom'
+```
 
 Then use the following code in your html.erb:
 
-    $ <%= Kbbrandom::MakeA.random_string(530) %>
-
+```ruby
+<%= Kbbrandom::MakeA.random_string(530) %>
+```
 
 ## Developing A Custom Gem
 
+#### Setup a Ruby Gems account
+
+This is not required., but it is fast and easy. All you need is your email address, handle (nickname), and password. Once you have an account, you can push your gems to RubyGems.org where they will be available to anyone to quick installation. 
+
+- Head'on over to [https://rubygems.org](https://rubygems.org) and click the "SIGN UP" button.
