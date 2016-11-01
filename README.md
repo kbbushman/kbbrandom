@@ -80,5 +80,7 @@ To push the new gem to your RubyGems account, run the following in your terminal
 
     $ gem push [gem name].-0.1.0.gem
 
+On your first push, you will be prompted for the email address and password for your Ruby Gems account. Once authenticated, if all goes well, you will receive the following message: "Successfully registered gem : [gem name] (version)"
+
 That should do it. If not, [Ruby Gems Guides] if you have any questions or concerns.
-e
+
