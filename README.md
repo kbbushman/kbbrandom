@@ -60,9 +60,11 @@ Once you're set on a name, run the code below generate the boilerplate gem files
 
 After the step above, you will now have a new directory with your gem name and the following files inside: Gemfile, LICENSE, README.md, Rakefile, lib, [gem name].gemspec.
 
-Change directories into the new gem folder, and open [gem name].gemspec in a text editor. Visit the Ruby Gems Guides for details, but you should update authors, email, summary, description, and homepage. Also, comment out the block below license if you plan on pushing to RubyGems.org. Save your changes.
+Change directories into the new gem folder, and open [gem name].gemspec in a text editor. Visit the [Ruby Gems Guides](http://guides.rubygems.org/make-your-own-gem/) for details, but you should update authors, email, summary, description, and homepage. Also, comment out the block below license if you plan on pushing to RubyGems.org. Save your changes.
 
-Your custom code will go in the /lib/[gem name].rb file. Once your masterpiece has been written, save it. Now let's move on....
+- Place your code that will define the functionality of this gem in the '/lib/[gem name].rb' file.
+
+Once your masterpiece has been written, save it. Now let's move on....
 
 #### Push It
 
@@ -79,4 +81,4 @@ To push the new gem to your RubyGems account, run the following in your terminal
     $ gem push [gem name].-0.1.0.gem
 
 That should do it. If not, [Ruby Gems Guides] if you have any questions or concerns.
-
+e
